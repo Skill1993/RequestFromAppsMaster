@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func chckBtn(_ sender: UIButton) {
+        view.endEditing(true)
         if urAnswer == sum{
             let alertSuccess = UIAlertController(
                 title: "Resolution",
