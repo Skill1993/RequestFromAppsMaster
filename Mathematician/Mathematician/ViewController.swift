@@ -9,20 +9,40 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var num1: Int = 0
-    var num2: Int = 0
-    var sum: Int = 0
-    var urAnswer: Int = 0
     
+    var tempIndexOfOperds: Int = 0
+    var urAnswer: Int = 0
+    var resCalc = Calculation(num1: 0, num2: 0)
+    var operationRes: Int = 0
+
     @IBOutlet weak var exmplLblb: UILabel!
     @IBOutlet weak var urAns: UITextField!
     
     @IBAction func rfrshExmpl(_ sender: UIButton) {
-        num1 = Int.random(in: 0..<101)
-        num2 = Int.random(in: 0..<101)
-        sum = num1 + num2
         
-        exmplLblb.text = ("\(num1) + \(num2)")
+        tempIndexOfOperds = Int.random(in: 0...4)
+        resCalc.num1 = Int.random(in: 0..<10001)
+        resCalc.num2 = Int.random(in: 0..<10001)
+        
+        switch tempIndexOfOperds{
+        case 0:
+            operationRes = resCalc.summation(num1: resCalc.num1, num2: resCalc.num2)
+            exmplLblb.text = "\(resCalc.num1) + \(resCalc.num2)"
+        case 1:
+            operationRes = resCalc.sub(num1: resCalc.num1, num2: resCalc.num2)
+            exmplLblb.text = "\(resCalc.num1) - \(resCalc.num2)"
+        case 2:
+            operationRes = resCalc.multyplicate(num1: resCalc.num1, num2: resCalc.num2)
+            exmplLblb.text = "\(resCalc.num1) * \(resCalc.num2)"
+        case 3:
+            operationRes = resCalc.divideBy(num1: resCalc.num1, num2: resCalc.num2)
+            exmplLblb.text = "\(resCalc.num1) / \(resCalc.num2)"
+        case 4:
+            operationRes = resCalc.extraDivide(num1: resCalc.num1, num2: resCalc.num2)
+            exmplLblb.text = "\(resCalc.num1) % \(resCalc.num2)"
+        default:
+            operationRes = 0
+        }
     }
     
     @IBAction func answrTxt(_ sender: UITextField) {
@@ -31,7 +51,7 @@ class ViewController: UIViewController {
     
     @IBAction func chckBtn(_ sender: UIButton) {
         view.endEditing(true)
-        if urAnswer == sum{
+        if urAnswer == operationRes{
             let alertSuccess = UIAlertController(
                 title: "Resolution",
                 message: "You are correct",

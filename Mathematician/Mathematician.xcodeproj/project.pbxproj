@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD21ECC215116F1005EA534 /* MathematicianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD21ECB215116F1005EA534 /* MathematicianTests.swift */; };
+		3FD21EDA215116FC005EA534 /* MathematicianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD21ED9215116FC005EA534 /* MathematicianUITests.swift */; };
+		3FD21EE121511706005EA534 /* CalculatorUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD21EC321511668005EA534 /* CalculatorUITest.swift */; };
+		3FD21EE221511709005EA534 /* CalculationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD21EBF2151153C005EA534 /* CalculationTest.swift */; };
+		3FD21EE4215117F3005EA534 /* CalculationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD21EE3215117F3005EA534 /* CalculationModule.swift */; };
 		3FFBF3B4214BE0FF002F7ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBF3B3214BE0FF002F7ED2 /* AppDelegate.swift */; };
 		3FFBF3B6214BE0FF002F7ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBF3B5214BE0FF002F7ED2 /* ViewController.swift */; };
 		3FFBF3B9214BE0FF002F7ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBF3B7214BE0FF002F7ED2 /* Main.storyboard */; };
@@ -14,7 +19,33 @@
 		3FFBF3BE214BE113002F7ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBF3BC214BE113002F7ED2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3FD21ECE215116F1005EA534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFBF3A8214BE0FF002F7ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFBF3AF214BE0FF002F7ED2;
+			remoteInfo = Mathematician;
+		};
+		3FD21EDC215116FD005EA534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFBF3A8214BE0FF002F7ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFBF3AF214BE0FF002F7ED2;
+			remoteInfo = Mathematician;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3FD21EBF2151153C005EA534 /* CalculationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationTest.swift; sourceTree = "<group>"; };
+		3FD21EC321511668005EA534 /* CalculatorUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITest.swift; sourceTree = "<group>"; };
+		3FD21EC9215116F0005EA534 /* MathematicianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD21ECB215116F1005EA534 /* MathematicianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicianTests.swift; sourceTree = "<group>"; };
+		3FD21ECD215116F1005EA534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD21ED7215116FC005EA534 /* MathematicianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD21ED9215116FC005EA534 /* MathematicianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicianUITests.swift; sourceTree = "<group>"; };
+		3FD21EDB215116FD005EA534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD21EE3215117F3005EA534 /* CalculationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModule.swift; sourceTree = "<group>"; };
 		3FFBF3B0214BE0FF002F7ED2 /* Mathematician.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathematician.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFBF3B3214BE0FF002F7ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFBF3B5214BE0FF002F7ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +56,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3FD21EC6215116F0005EA534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD21ED4215116FC005EA534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFBF3AD214BE0FF002F7ED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +80,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD21ECA215116F1005EA534 /* MathematicianTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FD21EBF2151153C005EA534 /* CalculationTest.swift */,
+				3FD21ECB215116F1005EA534 /* MathematicianTests.swift */,
+				3FD21ECD215116F1005EA534 /* Info.plist */,
+			);
+			path = MathematicianTests;
+			sourceTree = "<group>";
+		};
+		3FD21ED8215116FC005EA534 /* MathematicianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FD21EC321511668005EA534 /* CalculatorUITest.swift */,
+				3FD21ED9215116FC005EA534 /* MathematicianUITests.swift */,
+				3FD21EDB215116FD005EA534 /* Info.plist */,
+			);
+			path = MathematicianUITests;
+			sourceTree = "<group>";
+		};
 		3FFBF3A7214BE0FF002F7ED2 = {
 			isa = PBXGroup;
 			children = (
 				3FFBF3B2214BE0FF002F7ED2 /* Mathematician */,
+				3FD21ECA215116F1005EA534 /* MathematicianTests */,
+				3FD21ED8215116FC005EA534 /* MathematicianUITests */,
 				3FFBF3B1214BE0FF002F7ED2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				3FFBF3B0214BE0FF002F7ED2 /* Mathematician.app */,
+				3FD21EC9215116F0005EA534 /* MathematicianTests.xctest */,
+				3FD21ED7215116FC005EA534 /* MathematicianUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3FFBF3B3214BE0FF002F7ED2 /* AppDelegate.swift */,
+				3FD21EE3215117F3005EA534 /* CalculationModule.swift */,
 				3FFBF3B5214BE0FF002F7ED2 /* ViewController.swift */,
 				3FFBF3B7214BE0FF002F7ED2 /* Main.storyboard */,
 				3FFBF3BA214BE113002F7ED2 /* Assets.xcassets */,
@@ -67,6 +137,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3FD21EC8215116F0005EA534 /* MathematicianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD21ED0215116F1005EA534 /* Build configuration list for PBXNativeTarget "MathematicianTests" */;
+			buildPhases = (
+				3FD21EC5215116F0005EA534 /* Sources */,
+				3FD21EC6215116F0005EA534 /* Frameworks */,
+				3FD21EC7215116F0005EA534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD21ECF215116F1005EA534 /* PBXTargetDependency */,
+			);
+			name = MathematicianTests;
+			productName = MathematicianTests;
+			productReference = 3FD21EC9215116F0005EA534 /* MathematicianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FD21ED6215116FC005EA534 /* MathematicianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD21EDE215116FD005EA534 /* Build configuration list for PBXNativeTarget "MathematicianUITests" */;
+			buildPhases = (
+				3FD21ED3215116FC005EA534 /* Sources */,
+				3FD21ED4215116FC005EA534 /* Frameworks */,
+				3FD21ED5215116FC005EA534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD21EDD215116FD005EA534 /* PBXTargetDependency */,
+			);
+			name = MathematicianUITests;
+			productName = MathematicianUITests;
+			productReference = 3FD21ED7215116FC005EA534 /* MathematicianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		3FFBF3AF214BE0FF002F7ED2 /* Mathematician */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FFBF3C2214BE113002F7ED2 /* Build configuration list for PBXNativeTarget "Mathematician" */;
@@ -94,6 +200,14 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Никита Журавлев";
 				TargetAttributes = {
+					3FD21EC8215116F0005EA534 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FFBF3AF214BE0FF002F7ED2;
+					};
+					3FD21ED6215116FC005EA534 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FFBF3AF214BE0FF002F7ED2;
+					};
 					3FFBF3AF214BE0FF002F7ED2 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -113,11 +227,27 @@
 			projectRoot = "";
 			targets = (
 				3FFBF3AF214BE0FF002F7ED2 /* Mathematician */,
+				3FD21EC8215116F0005EA534 /* MathematicianTests */,
+				3FD21ED6215116FC005EA534 /* MathematicianUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3FD21EC7215116F0005EA534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD21ED5215116FC005EA534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFBF3AE214BE0FF002F7ED2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,16 +261,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3FD21EC5215116F0005EA534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD21ECC215116F1005EA534 /* MathematicianTests.swift in Sources */,
+				3FD21EE221511709005EA534 /* CalculationTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD21ED3215116FC005EA534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD21EDA215116FC005EA534 /* MathematicianUITests.swift in Sources */,
+				3FD21EE121511706005EA534 /* CalculatorUITest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFBF3AC214BE0FF002F7ED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD21EE4215117F3005EA534 /* CalculationModule.swift in Sources */,
 				3FFBF3B6214BE0FF002F7ED2 /* ViewController.swift in Sources */,
 				3FFBF3B4214BE0FF002F7ED2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FD21ECF215116F1005EA534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFBF3AF214BE0FF002F7ED2 /* Mathematician */;
+			targetProxy = 3FD21ECE215116F1005EA534 /* PBXContainerItemProxy */;
+		};
+		3FD21EDD215116FD005EA534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFBF3AF214BE0FF002F7ED2 /* Mathematician */;
+			targetProxy = 3FD21EDC215116FD005EA534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FFBF3B7214BE0FF002F7ED2 /* Main.storyboard */ = {
@@ -162,6 +324,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3FD21ED1215116F1005EA534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = MathematicianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.noirenick.stdlib1993.MathematicianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mathematician.app/Mathematician";
+			};
+			name = Debug;
+		};
+		3FD21ED2215116F1005EA534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = MathematicianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.noirenick.stdlib1993.MathematicianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mathematician.app/Mathematician";
+			};
+			name = Release;
+		};
+		3FD21EDF215116FD005EA534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = MathematicianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.noirenick.stdlib1993.MathematicianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mathematician;
+			};
+			name = Debug;
+		};
+		3FD21EE0215116FD005EA534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = MathematicianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.noirenick.stdlib1993.MathematicianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mathematician;
+			};
+			name = Release;
+		};
 		3FFBF3C0214BE113002F7ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 954BU937CN;
 				INFOPLIST_FILE = Mathematician/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 954BU937CN;
 				INFOPLIST_FILE = Mathematician/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +559,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3FD21ED0215116F1005EA534 /* Build configuration list for PBXNativeTarget "MathematicianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD21ED1215116F1005EA534 /* Debug */,
+				3FD21ED2215116F1005EA534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD21EDE215116FD005EA534 /* Build configuration list for PBXNativeTarget "MathematicianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD21EDF215116FD005EA534 /* Debug */,
+				3FD21EE0215116FD005EA534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3FFBF3AB214BE0FF002F7ED2 /* Build configuration list for PBXProject "Mathematician" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
