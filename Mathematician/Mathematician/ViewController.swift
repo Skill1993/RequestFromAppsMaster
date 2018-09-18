@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             operationRes = resCalc.sub(num1: resCalc.num1, num2: resCalc.num2)
             exmplLblb.text = "\(resCalc.num1) - \(resCalc.num2)"
         case 2:
-            operationRes = resCalc.multyplicate(num1: resCalc.num1, num2: resCalc.num2)
+            operationRes = resCalc.multiplicate(num1: resCalc.num1, num2: resCalc.num2)
             exmplLblb.text = "\(resCalc.num1) * \(resCalc.num2)"
         case 3:
             operationRes = resCalc.divideBy(num1: resCalc.num1, num2: resCalc.num2)

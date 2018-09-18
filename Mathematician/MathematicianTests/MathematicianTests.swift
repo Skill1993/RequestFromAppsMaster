@@ -7,9 +7,19 @@
 //
 
 import XCTest
+@testable import Mathematician
 
 class MathematicianTests: XCTestCase {
-
+    
+    let resCalc = Calculation(num1: 0, num2: 0)
+    
+    func testAdd(){
+        XCTAssertEqual(resCalc.summation(num1: 14, num2: 13),17)
+        XCTAssertEqual(resCalc.sub(num1: 13, num2: 40), -27)
+        XCTAssertEqual(resCalc.divideBy(num1: 56, num2: 8), 7)
+        XCTAssertEqual(resCalc.extraDivide(num1: 7, num2: 5), 2)
+    }
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
